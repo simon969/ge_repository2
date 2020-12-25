@@ -1,0 +1,12 @@
+C:\Users\thomsonsj\Documents\Visual Studio Code\ge_repository2\ge_repository.core\bin\Debug\net5.0\ge_repository.core.deps.json
+C:\Users\thomsonsj\Documents\Visual Studio Code\ge_repository2\ge_repository.core\bin\Debug\net5.0\ge_repository.core.dll
+C:\Users\thomsonsj\Documents\Visual Studio Code\ge_repository2\ge_repository.core\bin\Debug\net5.0\ref\ge_repository.core.dll
+C:\Users\thomsonsj\Documents\Visual Studio Code\ge_repository2\ge_repository.core\bin\Debug\net5.0\ge_repository.core.pdb
+C:\Users\thomsonsj\Documents\Visual Studio Code\ge_repository2\ge_repository.core\obj\Debug\net5.0\ge_repository.core.csprojAssemblyReference.cache
+C:\Users\thomsonsj\Documents\Visual Studio Code\ge_repository2\ge_repository.core\obj\Debug\net5.0\ge_repository.core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thomsonsj\Documents\Visual Studio Code\ge_repository2\ge_repository.core\obj\Debug\net5.0\ge_repository.core.AssemblyInfoInputs.cache
+C:\Users\thomsonsj\Documents\Visual Studio Code\ge_repository2\ge_repository.core\obj\Debug\net5.0\ge_repository.core.AssemblyInfo.cs
+C:\Users\thomsonsj\Documents\Visual Studio Code\ge_repository2\ge_repository.core\obj\Debug\net5.0\ge_repository.core.csproj.CoreCompileInputs.cache
+C:\Users\thomsonsj\Documents\Visual Studio Code\ge_repository2\ge_repository.core\obj\Debug\net5.0\ge_repository.core.dll
+C:\Users\thomsonsj\Documents\Visual Studio Code\ge_repository2\ge_repository.core\obj\Debug\net5.0\ref\ge_repository.core.dll
+C:\Users\thomsonsj\Documents\Visual Studio Code\ge_repository2\ge_repository.core\obj\Debug\net5.0\ge_repository.core.pdb

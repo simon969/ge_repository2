@@ -1,0 +1,122 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\thomsonsj\\Documents\\Visual Studio Code\\ge_repository2\\ge_repository.services\\ge_repository.services.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\thomsonsj\\Documents\\Visual Studio Code\\ge_repository2\\ge_repository.core\\ge_repository.core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\thomsonsj\\Documents\\Visual Studio Code\\ge_repository2\\ge_repository.core\\ge_repository.core.csproj",
+        "projectName": "ge_repository.core",
+        "projectPath": "C:\\Users\\thomsonsj\\Documents\\Visual Studio Code\\ge_repository2\\ge_repository.core\\ge_repository.core.csproj",
+        "packagesPath": "C:\\Users\\thomsonsj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thomsonsj\\Documents\\Visual Studio Code\\ge_repository2\\ge_repository.core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\thomsonsj\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\thomsonsj\\Documents\\Visual Studio Code\\ge_repository2\\ge_repository.services\\ge_repository.services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\thomsonsj\\Documents\\Visual Studio Code\\ge_repository2\\ge_repository.services\\ge_repository.services.csproj",
+        "projectName": "ge_repository.services",
+        "projectPath": "C:\\Users\\thomsonsj\\Documents\\Visual Studio Code\\ge_repository2\\ge_repository.services\\ge_repository.services.csproj",
+        "packagesPath": "C:\\Users\\thomsonsj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thomsonsj\\Documents\\Visual Studio Code\\ge_repository2\\ge_repository.services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\thomsonsj\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\thomsonsj\\Documents\\Visual Studio Code\\ge_repository2\\ge_repository.core\\ge_repository.core.csproj": {
+                "projectPath": "C:\\Users\\thomsonsj\\Documents\\Visual Studio Code\\ge_repository2\\ge_repository.core\\ge_repository.core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
