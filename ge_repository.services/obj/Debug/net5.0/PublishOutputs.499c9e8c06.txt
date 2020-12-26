@@ -1,0 +1,5 @@
+C:\Users\thomsonsj\Documents\Visual Studio Code\ge_repository2\ge_repository.services\bin\Debug\net5.0\publish\ge_repository.services.dll
+C:\Users\thomsonsj\Documents\Visual Studio Code\ge_repository2\ge_repository.services\bin\Debug\net5.0\publish\ge_repository.services.deps.json
+C:\Users\thomsonsj\Documents\Visual Studio Code\ge_repository2\ge_repository.services\bin\Debug\net5.0\publish\ge_repository.services.pdb
+C:\Users\thomsonsj\Documents\Visual Studio Code\ge_repository2\ge_repository.services\bin\Debug\net5.0\publish\ge_repository.core.dll
+C:\Users\thomsonsj\Documents\Visual Studio Code\ge_repository2\ge_repository.services\bin\Debug\net5.0\publish\ge_repository.core.pdb

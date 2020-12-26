@@ -1,0 +1,15 @@
+C:\Users\thomsonsj\Documents\Visual Studio Code\ge_repository2\ge_repository.services\bin\Release\net5.0\ge_repository.services.deps.json
+C:\Users\thomsonsj\Documents\Visual Studio Code\ge_repository2\ge_repository.services\bin\Release\net5.0\ge_repository.services.dll
+C:\Users\thomsonsj\Documents\Visual Studio Code\ge_repository2\ge_repository.services\bin\Release\net5.0\ref\ge_repository.services.dll
+C:\Users\thomsonsj\Documents\Visual Studio Code\ge_repository2\ge_repository.services\bin\Release\net5.0\ge_repository.services.pdb
+C:\Users\thomsonsj\Documents\Visual Studio Code\ge_repository2\ge_repository.services\bin\Release\net5.0\ge_repository.core.dll
+C:\Users\thomsonsj\Documents\Visual Studio Code\ge_repository2\ge_repository.services\bin\Release\net5.0\ge_repository.core.pdb
+C:\Users\thomsonsj\Documents\Visual Studio Code\ge_repository2\ge_repository.services\obj\Release\net5.0\ge_repository.services.csprojAssemblyReference.cache
+C:\Users\thomsonsj\Documents\Visual Studio Code\ge_repository2\ge_repository.services\obj\Release\net5.0\ge_repository.services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thomsonsj\Documents\Visual Studio Code\ge_repository2\ge_repository.services\obj\Release\net5.0\ge_repository.services.AssemblyInfoInputs.cache
+C:\Users\thomsonsj\Documents\Visual Studio Code\ge_repository2\ge_repository.services\obj\Release\net5.0\ge_repository.services.AssemblyInfo.cs
+C:\Users\thomsonsj\Documents\Visual Studio Code\ge_repository2\ge_repository.services\obj\Release\net5.0\ge_repository.services.csproj.CoreCompileInputs.cache
+C:\Users\thomsonsj\Documents\Visual Studio Code\ge_repository2\ge_repository.services\obj\Release\net5.0\ge_repository.services.csproj.CopyComplete
+C:\Users\thomsonsj\Documents\Visual Studio Code\ge_repository2\ge_repository.services\obj\Release\net5.0\ge_repository.services.dll
+C:\Users\thomsonsj\Documents\Visual Studio Code\ge_repository2\ge_repository.services\obj\Release\net5.0\ref\ge_repository.services.dll
+C:\Users\thomsonsj\Documents\Visual Studio Code\ge_repository2\ge_repository.services\obj\Release\net5.0\ge_repository.services.pdb

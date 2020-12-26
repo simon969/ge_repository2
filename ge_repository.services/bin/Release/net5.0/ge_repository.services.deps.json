@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ge_repository.services/1.0.0": {
+        "dependencies": {
+          "ge_repository.core": "1.0.0"
+        },
+        "runtime": {
+          "ge_repository.services.dll": {}
+        }
+      },
+      "ge_repository.core/1.0.0": {
+        "runtime": {
+          "ge_repository.core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ge_repository.services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ge_repository.core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

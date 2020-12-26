@@ -1,0 +1,3 @@
+C:\myap\ge_repository.core.dll
+C:\myap\ge_repository.core.deps.json
+C:\myap\ge_repository.core.pdb
