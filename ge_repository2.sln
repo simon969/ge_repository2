@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ge_repository.services", "g
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ge_repository.data", "ge_repository.data\ge_repository.data.csproj", "{43D7AEC4-6804-4526-A49A-C58723073CAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ge_repository.pages", "ge_repository.pages\ge_repository.pages.csproj", "{3C4D5AA4-37ED-467C-8EA9-E9DDD495AE2B}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
