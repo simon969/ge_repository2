@@ -10,7 +10,7 @@ using ge_repository.data;
 namespace ge_repository.data.Migrations
 {
     [DbContext(typeof(ge_DbContext))]
-    [Migration("20201225172021_InitialModel")]
+    [Migration("20201227115116_InitialModel")]
     partial class InitialModel
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -289,7 +289,6 @@ namespace ge_repository.data.Migrations
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("name")
-                        .IsRequired()
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
 
@@ -415,7 +414,6 @@ namespace ge_repository.data.Migrations
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("name")
-                        .IsRequired()
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
 
@@ -535,13 +533,13 @@ namespace ge_repository.data.Migrations
             modelBuilder.Entity("ge_repository.core.models.ge_user", b =>
                 {
                     b.Property<string>("Id")
+                        .HasMaxLength(450)
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Email")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("FirstName")
-                        .IsRequired()
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
 
@@ -549,7 +547,6 @@ namespace ge_repository.data.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("LastName")
-                        .IsRequired()
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
 
@@ -591,10 +588,8 @@ namespace ge_repository.data.Migrations
                     b.Property<Guid?>("projectId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("userId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("userId1")
+                    b.Property<string>("userId")
+                        .HasMaxLength(450)
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("user_operations")
@@ -606,7 +601,7 @@ namespace ge_repository.data.Migrations
 
                     b.HasIndex("projectId");
 
-                    b.HasIndex("userId1");
+                    b.HasIndex("userId");
 
                     b.ToTable("ge_user_ops");
                 });
@@ -688,8 +683,8 @@ namespace ge_repository.data.Migrations
                         .HasForeignKey("projectId");
 
                     b.HasOne("ge_repository.core.models.ge_user", "user")
-                        .WithMany()
-                        .HasForeignKey("userId1");
+                        .WithMany("user_ops")
+                        .HasForeignKey("userId");
 
                     b.Navigation("group");
 
@@ -717,6 +712,11 @@ namespace ge_repository.data.Migrations
                     b.Navigation("transform");
 
                     b.Navigation("users");
+                });
+
+            modelBuilder.Entity("ge_repository.core.models.ge_user", b =>
+                {
+                    b.Navigation("user_ops");
                 });
 #pragma warning restore 612, 618
         }

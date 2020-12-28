@@ -13,12 +13,10 @@ namespace ge_repository.data.configurations
 
             builder
                 .Property(m => m.FirstName)
-                .IsRequired()
                 .HasMaxLength(255);
             
             builder
                 .Property(m => m.LastName)
-                .IsRequired()
                 .HasMaxLength(255);
             
             builder

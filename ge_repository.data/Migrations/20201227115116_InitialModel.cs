@@ -12,7 +12,7 @@ namespace ge_repository.data.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    name = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
+                    name = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: true),
                     managerId = table.Column<string>(type: "nvarchar(450)", maxLength: 450, nullable: true),
                     homepageId = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
                     project_operations = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: true),
@@ -48,10 +48,10 @@ namespace ge_repository.data.Migrations
                 name: "ge_user",
                 columns: table => new
                 {
-                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    Id = table.Column<string>(type: "nvarchar(450)", maxLength: 450, nullable: false),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    FirstName = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
-                    LastName = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
+                    FirstName = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: true),
+                    LastName = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: true),
                     LastLoggedIn = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
@@ -64,7 +64,7 @@ namespace ge_repository.data.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    name = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
+                    name = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: true),
                     description = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: true),
                     keywords = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: true),
                     start_date = table.Column<DateTime>(type: "datetime2", nullable: false),
@@ -196,8 +196,7 @@ namespace ge_repository.data.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    userId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    userId1 = table.Column<string>(type: "nvarchar(450)", nullable: true),
+                    userId = table.Column<string>(type: "nvarchar(450)", maxLength: 450, nullable: true),
                     user_operations = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     projectId = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
                     groupId = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
@@ -224,8 +223,8 @@ namespace ge_repository.data.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_ge_user_ops_ge_user_userId1",
-                        column: x => x.userId1,
+                        name: "FK_ge_user_ops_ge_user_userId",
+                        column: x => x.userId,
                         principalTable: "ge_user",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
@@ -333,9 +332,9 @@ namespace ge_repository.data.Migrations
                 column: "projectId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_ge_user_ops_userId1",
+                name: "IX_ge_user_ops_userId",
                 table: "ge_user_ops",
-                column: "userId1");
+                column: "userId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

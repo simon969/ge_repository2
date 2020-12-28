@@ -31,6 +31,15 @@ namespace ge_repository.api.controllers
 
             return Ok(dataResources);
         }
+       
+        [HttpGet("GetDataByProjectId/{projectId}")]
+        public async Task<ActionResult<DataResource>> GetDataByProjectId(Guid projectId)
+        {
+            var data = await _dataService.GetDataByProjectId(projectId);
+            var dataResource = _mapper.Map<IEnumerable<ge_data>, IEnumerable<DataResource>>(data);
+
+            return Ok(dataResource);
+        }
 
         [HttpGet("{Id}")]
         public async Task<ActionResult<DataResource>> GetDataById(Guid Id)

@@ -9,6 +9,11 @@ namespace ge_repository.core
         IDataRepository Data {get;}
         IProjectRepository Project { get; }
         IGroupRepository Group { get; }
+        ITransformRepository Transform {get;}
+        IUserRepository User {get;}
+        IUserOpsRepository UserOps {get;}
+
+
         Task<int> CommitAsync();
     }
 }

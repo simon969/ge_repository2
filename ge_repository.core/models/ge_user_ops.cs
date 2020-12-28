@@ -6,7 +6,7 @@ namespace ge_repository.core.models{
 
 public class ge_user_ops : _ge_base {
     public Guid Id {get;set;}
-    [Display(Name="User Id")] public Guid userId{get;set;} 
+    [Display(Name="User Id")] [StringLength(450)] public string userId{get;set;} 
     virtual public ge_user user {get;set;}
     [Display(Name ="User Operations")] public string user_operations {get;set;}
      [Display(Name="Project Id")] public Guid? projectId{get;set;} 

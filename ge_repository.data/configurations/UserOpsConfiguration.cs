@@ -20,6 +20,12 @@ namespace ge_repository.data.configurations
             // .WithMany()
             // .HasForeignKey("editedId")
             // .OnDelete(DeleteBehavior.Restrict);   
+            
+            builder
+                .HasOne(m => m.user)
+                .WithMany(a => a.user_ops)
+                .HasForeignKey(m => m.userId);
+            
             builder
                 .ToTable("ge_user_ops");
         }
